@@ -51,7 +51,7 @@ jobs:
           echo "::set-output name=month::${{ env.MONTH }}"
 
       - name: Get Stats for April
-        run: curl "https://ststaticprodosciwebz2vmu.blob.core.windows.net/data/osci-ranking/monthly/2022/$month.json" | jq '.data' | jq -c '.[] | select( .company == "Opencast Software")' >> ${{ env.FILE }}
+        run: curl "https://ststaticprodosciwebz2vmu.blob.core.windows.net/data/osci-ranking/monthly/2022/${{ env.MONTH }}.json" | jq '.data' | jq -c '.[] | select( .company == "Opencast Software")' >> ${{ env.FILE }}
 
       - name: Create a new branch, add the file and push
         run: |
