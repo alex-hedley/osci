@@ -38,7 +38,8 @@ jobs:
             month=$(date +%m)
             echo $month
             month=$(expr $(date +%m) - 1)
-            month=$(printf "%02d" month)
+            echo $month
+            month=$(LC_NUMERIC="en_US.UTF-8" printf "%02d" month)
             echo $month
           fi
 
