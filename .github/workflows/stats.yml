@@ -25,8 +25,8 @@ jobs:
       - name: Checkout Branch
         uses: actions/checkout@v3
       
-      # - name: Get Stats for April
-      #   run: curl https://ststaticprodosciwebz2vmu.blob.core.windows.net/data/osci-ranking/monthly/2022/04.json | jq '.data' | jq -c '.[] | select( .company == "Opencast Software")' >> stats.json
+#       - name: Get Stats for April
+#         run: curl https://ststaticprodosciwebz2vmu.blob.core.windows.net/data/osci-ranking/monthly/2022/04.json | jq '.data' | jq -c '.[] | select( .company == "Opencast Software")' >> stats.json
 
       - name: Setup Git Config
         run: |
