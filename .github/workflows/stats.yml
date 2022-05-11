@@ -27,11 +27,6 @@ jobs:
     steps:
       - name: Checkout Branch
         uses: actions/checkout@v3
-      
-      - name: Setup Git Config
-        run: |
-          git config user.name "GitHub Actions Bot"
-          git config user.email "<>"
 
       - name: Get Month
         run: |
@@ -53,9 +48,15 @@ jobs:
       - name: Get Stats for April
         run: curl "https://ststaticprodosciwebz2vmu.blob.core.windows.net/data/osci-ranking/monthly/2022/${{ env.MONTH }}.json" | jq '.data' | jq -c '.[] | select( .company == "Opencast Software")' >> ${{ env.FILE }}
 
+      - name: Setup Git Config
+        if: "${{ github.event.inputs.month }} != "" }}
+        run: |
+          git config user.name "GitHub Actions Bot"
+          git config user.email "<>"
+      
       - name: Create a new branch, add the file and push
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+        # with:
+        #   github_token: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git checkout -b "stats/$MONTH"
           git add ${{ env.FILE }}
