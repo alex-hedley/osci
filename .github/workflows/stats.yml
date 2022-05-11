@@ -20,6 +20,56 @@ jobs:
       - name: Checkout Branch
         uses: actions/checkout@v3
       
-      - name: Run a one-line script
-        run: curl https://ststaticprodosciwebz2vmu.blob.core.windows.net/data/osci-ranking/monthly/2022/04.json | jq '.data' | jq -c '.[] | select( .company == "Opencast Software")'
+      - name: Get Stats for April
+        run: curl https://ststaticprodosciwebz2vmu.blob.core.windows.net/data/osci-ranking/monthly/2022/04.json | jq '.data' | jq -c '.[] | select( .company == "Opencast Software")' >> stats.json
 
+      - name: Setup Git Config
+        run: |
+          git config user.name "GitHub Actions Bot"
+          git config user.email "<>"
+
+      - name: Get Month
+        run: |
+#          month=$(date +%B)
+#          echo "Current Month : $month"
+#          month=$(date +%b)
+#          echo "Current Month : $month"
+          month=$(date +%m)
+          echo $month
+          echo "Current Month : $month"
+
+          month=$(expr $(date +%m) - 1)
+          echo $month
+
+          echo "MONTH=$(echo $month)" >> $GITHUB_ENV
+          echo "::set-output name=month::${{ env.MONTH }}"
+
+      - name: Create a new branch, add the file and push
+        run: |
+          git checkout -b "stats/$MONTH"
+          git add ${{ env.FILE }}
+          git commit -m "✚ Add Data for $MONTH"
+          git push --set-upstream origin "stats/$MONTH"
+
+      - name: Create Pull Request
+        uses: actions/github-script@v6
+        with:
+          script: |
+            const { MONTH } = process.env
+            const { repo, owner } = context.repo;
+            const result = await github.rest.pulls.create({
+              title: `Added data for month ${MONTH}`,
+              owner,
+              repo,
+              head: `stats/${MONTH}`,
+              base: 'main',
+              body: [
+                `Added data for month ${MONTH}`,
+              ].join('\n')
+            });
+            github.rest.issues.addLabels({
+              owner,
+              repo,
+              issue_number: result.data.number,
+              labels: ['data']
+            });
