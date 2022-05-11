@@ -17,6 +17,9 @@ on:
     - cron: "0 0 1 * *"
   # https://crontab.guru/#0_0_1_*_*
 
+env:
+  FILE: "stats.json"
+
 jobs:
   get-stats:
     runs-on: ubuntu-latest
@@ -48,7 +51,7 @@ jobs:
           echo "::set-output name=month::${{ env.MONTH }}"
 
       - name: Get Stats for April
-        run: curl "https://ststaticprodosciwebz2vmu.blob.core.windows.net/data/osci-ranking/monthly/2022/$month.json" | jq '.data' | jq -c '.[] | select( .company == "Opencast Software")' >> stats.json
+        run: curl "https://ststaticprodosciwebz2vmu.blob.core.windows.net/data/osci-ranking/monthly/2022/$month.json" | jq '.data' | jq -c '.[] | select( .company == "Opencast Software")' >> ${{ env.FILE }}
 
       - name: Create a new branch, add the file and push
         run: |
