@@ -1,0 +1,25 @@
+name: Get Stats
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+  workflow_dispatch:
+  
+  schedule:
+    - cron: "0 0 1 * *"
+  # https://crontab.guru/#0_0_1_*_*
+
+jobs:
+  get-stats:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Branch
+        uses: actions/checkout@v3
+      
+      - name: Run a one-line script
+        run: curl https://ststaticprodosciwebz2vmu.blob.core.windows.net/data/osci-ranking/monthly/2022/04.json | jq '.data' | jq -c '.[] | select( .company == "Opencast Software")'
+
