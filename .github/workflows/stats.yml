@@ -54,6 +54,8 @@ jobs:
         run: curl "https://ststaticprodosciwebz2vmu.blob.core.windows.net/data/osci-ranking/monthly/2022/${{ env.MONTH }}.json" | jq '.data' | jq -c '.[] | select( .company == "Opencast Software")' >> ${{ env.FILE }}
 
       - name: Create a new branch, add the file and push
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git checkout -b "stats/$MONTH"
           git add ${{ env.FILE }}
