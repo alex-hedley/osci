@@ -34,16 +34,16 @@ jobs:
         run: |
           if [[ "${{ github.event.inputs.month }}" != "" ]]
           then
+            month=${{ github.event.inputs.month }}
+            echo $month
+          else
             month=$(date +%m)
             echo $month
             month=$(expr $(date +%m) - 1)
             month=$(printf "%02d" month)
             echo $month
-          else
-            month=${{ github.event.inputs.month }}
-            echo $month
           fi
-          
+
           echo "MONTH=$(echo $month)" >> $GITHUB_ENV
           echo "::set-output name=month::${{ env.MONTH }}"
 
