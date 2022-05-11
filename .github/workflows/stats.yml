@@ -32,7 +32,7 @@ jobs:
         run: |
           git config user.name "GitHub Actions Bot"
           git config user.email "<>"
-
+      
       - name: Get Month
         run: |
           if [[ "${{ github.event.inputs.month }}" != "" ]]
