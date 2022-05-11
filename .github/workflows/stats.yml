@@ -25,9 +25,6 @@ jobs:
       - name: Checkout Branch
         uses: actions/checkout@v3
       
-#       - name: Get Stats for April
-#         run: curl https://ststaticprodosciwebz2vmu.blob.core.windows.net/data/osci-ranking/monthly/2022/04.json | jq '.data' | jq -c '.[] | select( .company == "Opencast Software")' >> stats.json
-
       - name: Setup Git Config
         run: |
           git config user.name "GitHub Actions Bot"
@@ -37,11 +34,6 @@ jobs:
         run: |
           if [[ "${{ github.event.inputs.month }}" != "" ]]
           then
-#          month=$(date +%B)
-#          echo "Current Month : $month"
-#          month=$(date +%b)
-#          echo "Current Month : $month"
-#          echo "Current Month : $month"
             month=$(date +%m)
             echo $month
             month=$(expr $(date +%m) - 1)
