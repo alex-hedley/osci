@@ -7,6 +7,11 @@ on:
     branches: [ main ]
 
   workflow_dispatch:
+    inputs:
+      month:
+        description: "Which month do you require data for?"
+        required: false
+        default: ""
   
   schedule:
     - cron: "0 0 1 * *"
@@ -20,8 +25,8 @@ jobs:
       - name: Checkout Branch
         uses: actions/checkout@v3
       
-      - name: Get Stats for April
-        run: curl https://ststaticprodosciwebz2vmu.blob.core.windows.net/data/osci-ranking/monthly/2022/04.json | jq '.data' | jq -c '.[] | select( .company == "Opencast Software")' >> stats.json
+      # - name: Get Stats for April
+      #   run: curl https://ststaticprodosciwebz2vmu.blob.core.windows.net/data/osci-ranking/monthly/2022/04.json | jq '.data' | jq -c '.[] | select( .company == "Opencast Software")' >> stats.json
 
       - name: Setup Git Config
         run: |
@@ -30,19 +35,27 @@ jobs:
 
       - name: Get Month
         run: |
+          if [[ "${{ github.event.inputs.month }}" != "" ]]
+          then
 #          month=$(date +%B)
 #          echo "Current Month : $month"
 #          month=$(date +%b)
 #          echo "Current Month : $month"
-          month=$(date +%m)
-          echo $month
-          echo "Current Month : $month"
-
-          month=$(expr $(date +%m) - 1)
-          echo $month
+#          echo "Current Month : $month"
+            month=$(date +%m)
+            echo $month
+            month=$(expr $(date +%m) - 1)
+            month=$(printf "%02d" month)
+            echo $month
+          else
+            month=${{ github.event.inputs.month }}
+            echo $month
 
           echo "MONTH=$(echo $month)" >> $GITHUB_ENV
           echo "::set-output name=month::${{ env.MONTH }}"
+
+      - name: Get Stats for April
+        run: curl "https://ststaticprodosciwebz2vmu.blob.core.windows.net/data/osci-ranking/monthly/2022/$month.json" | jq '.data' | jq -c '.[] | select( .company == "Opencast Software")' >> stats.json
 
       - name: Create a new branch, add the file and push
         run: |
