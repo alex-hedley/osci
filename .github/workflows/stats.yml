@@ -30,7 +30,7 @@ jobs:
 
       - name: Get Month
         run: |
-          if [[ "${{ github.event.inputs.month }}" != "" ]]
+          if [ ${{ github.event.inputs.month }} != "" ]
           then
             month=${{ github.event.inputs.month }}
             echo $month
