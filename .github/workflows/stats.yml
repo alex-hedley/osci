@@ -38,13 +38,13 @@ jobs:
             month=$(date +%m)
             echo $month
             month=$(expr $(date +%m) - 1)
-            echo $month        
+            echo $month   
+            month=$(LC_NUMERIC="en_US.UTF-8" printf "%02d" month)
+            echo $month     
           fi
-
           echo "MONTH=$(echo $month)" >> $GITHUB_ENV
           echo "::set-output name=month::${{ env.MONTH }}"
-# month=$(LC_NUMERIC="en_US.UTF-8" printf "%02d" month)
-# echo $month
+
       - name: Get Stats for April
         run: curl "https://ststaticprodosciwebz2vmu.blob.core.windows.net/data/osci-ranking/monthly/2022/${{ env.MONTH }}.json" | jq '.data' | jq -c '.[] | select( .company == "Opencast Software")' >> ${{ env.FILE }}
 
