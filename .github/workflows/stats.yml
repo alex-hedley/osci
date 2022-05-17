@@ -39,7 +39,7 @@ jobs:
             echo $month
             month=$(expr $(date +%m) - 1)
             echo $month   
-            month=$(LC_NUMERIC="en_US.UTF-8" printf "%02d" month)
+            month=$(LC_NUMERIC="en_US.UTF-8" printf "%02d" $month)
             echo $month     
           fi
           echo "MONTH=$(echo $month)" >> $GITHUB_ENV
