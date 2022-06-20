@@ -6,3 +6,11 @@
 
 - [OSCI](https://opensourceindex.io)
 - [GitHub](https://github.com/epam/OSCI)
+
+## Run
+
+`cd src`
+
+- `python -m http.server`
+- `python -m SimpleHTTPServer`
+- `python3 -m http.server`
