@@ -14,7 +14,8 @@ on:
         default: ""
   
   schedule:
-    - cron: "0 0 1 * *"
+    - cron: "0 0 2 * *"
+  # Delay as sometimes the data isn't ready when it runs on the first.
   # https://crontab.guru/#0_0_1_*_*
 
 env:
@@ -48,7 +49,7 @@ jobs:
           echo "MONTH=$(echo $month)" >> $GITHUB_ENV
           echo "::set-output name=month::${{ env.MONTH }}"
 
-      - name: Get Stats for April
+      - name: Get Stats for Month
         run: curl "https://ststaticprodosciwebz2vmu.blob.core.windows.net/data/osci-ranking/monthly/2022/${{ env.MONTH }}.json" | jq '.data' | jq -c '.[] | select( .company == "Opencast Software")' >> ${{ env.FILE }}
 
       - name: Setup Git Config
