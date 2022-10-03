@@ -13,12 +13,13 @@ myApp.controller('myController', function ($scope, $http, $q, $filter) {
         $http.get(file)
         .then(function(response) {
             // $scope.data = response.data;
-            console.log(response.data);
+            // console.log(response.data);
             var twentyTwentyTwo = response.data["2022"];
+            // console.log(twentyTwentyTwo)
             const keys = Object.keys(twentyTwentyTwo);
-            console.log(keys);
+            // console.log(keys);
             const months = Object.values(twentyTwentyTwo);
-            console.log(months);
+            // console.log(months);
             $scope.data = months;
         });
     };
