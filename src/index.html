@@ -80,32 +80,50 @@
                     <br />
 
                     <div class="row">
+                        <div class="col">
+                            <canvas id="myChart"></canvas>
+                        </div>
+                    </div>
+
+                    <br />
+
+                    <div class="row">
                         <div 
                             ng-repeat="item in data | filter:searchText | orderBy:'number'"
                             class="col-md-4"
                             style="margin-bottom: 50px;"
                         >
                             <div class="card" style="width: 18rem;">
-                                <div class="card-body">
-                                    <!-- <h5 class="card-title"></h5> -->
+                                <div class="card-header">
                                     <span class="badge badge-secondary">{{item.positionChange}}</span>
                                     <span class="badge badge-secondary">{{item.activeContributors}}</span>
                                     <span class="badge badge-secondary">{{item.activeContributorsChange}}</span>
                                     <span class="badge badge-secondary">{{item.totalCommunity}}</span>
                                     <span class="badge badge-secondary">{{item.totalCommunityChange}}</span>
                                     <span class="badge badge-secondary">{{item.position}}</span>
+                                </div>
+                                
+                                <div class="card-body">
+                                    <!-- <h5 class="card-title"></h5> -->
                                     <!-- <p class="card-text"></p> -->
-                                    <div ng-repeat="contributor in item.contributors" class="col-md-4">
+                                    <div ng-repeat="contributor in item.contributors">
                                         <img ng-src="https://github.com/{{contributor.Contributor}}.png?size=40" alt="{{contributor.Contributor}}" width="40" />
                                         <span class="badge badge-primary">{{contributor.Commits}}</span>
                                     </div>
+                                </div>
+
+                                <div class="card-footer">
+                                    <h6 class="card-subtitle">Languages</h6>
                                     <div ng-repeat="language in item.languages">
                                         <p class="card-text">{{language.name}} <span class="badge badge-warning">{{language.amount}}</span></p>
                                     </div>
+                                </div>
+
+                                <div class="card-footer">
+                                    <h6 class="card-subtitle">Licenses</h6>
                                     <div ng-repeat="license in item.licenses">
                                         <p class="card-text">{{license.name}} <span class="badge badge-info">{{license.amount}}</span></p>
                                     </div>
-                                    
                                 </div>
                             </div>
                         </div>
@@ -134,6 +152,9 @@
         <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular.min.js"></script> -->
         <!-- <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.5/angular.min.js"></script> -->
         <script src="js/vendor/angular.min.js"></script>
+        <script src="js/vendor/chart.min.js"></script>
+        <!-- <script src="js/vendor/chartjs-plugin-annotation_1.0.2.js"></script> -->
+        <script src="js/vendor/chartjs-plugin-datalabels.min.js"></script>
         <script src="js/app.js"></script>
     </body>
 </html>
