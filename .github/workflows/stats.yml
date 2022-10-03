@@ -19,7 +19,7 @@ on:
   # https://crontab.guru/#0_0_1_*_*
 
 env:
-  FILE: "stats.json"
+  FILE: "src/data/stats.json"
 
 jobs:
   get-stats:
