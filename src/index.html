@@ -87,12 +87,25 @@
                         >
                             <div class="card" style="width: 18rem;">
                                 <div class="card-body">
+                                    <!-- <h5 class="card-title"></h5> -->
                                     <span class="badge badge-secondary">{{item.positionChange}}</span>
                                     <span class="badge badge-secondary">{{item.activeContributors}}</span>
                                     <span class="badge badge-secondary">{{item.activeContributorsChange}}</span>
                                     <span class="badge badge-secondary">{{item.totalCommunity}}</span>
                                     <span class="badge badge-secondary">{{item.totalCommunityChange}}</span>
                                     <span class="badge badge-secondary">{{item.position}}</span>
+                                    <!-- <p class="card-text"></p> -->
+                                    <div ng-repeat="contributor in item.contributors" class="col-md-4">
+                                        <img ng-src="https://github.com/{{contributor.Contributor}}.png?size=40" alt="{{contributor.Contributor}}" width="40" />
+                                        <span class="badge badge-primary">{{contributor.Commits}}</span>
+                                    </div>
+                                    <div ng-repeat="language in item.languages">
+                                        <p class="card-text">{{language.name}} <span class="badge badge-warning">{{language.amount}}</span></p>
+                                    </div>
+                                    <div ng-repeat="license in item.licenses">
+                                        <p class="card-text">{{license.name}} <span class="badge badge-info">{{license.amount}}</span></p>
+                                    </div>
+                                    
                                 </div>
                             </div>
                         </div>
