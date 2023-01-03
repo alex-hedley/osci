@@ -12,6 +12,10 @@ on:
         description: "Which month do you require data for?"
         required: false
         default: ""
+      year:
+        description: "Which year do you require data for?"
+        required: false
+        default: ""
   
   schedule:
     - cron: "0 0 2 * *"
@@ -38,19 +42,28 @@ jobs:
           then
             month=${{ github.event.inputs.month }}
             echo $month
+          else if [[ "${{ github.event.inputs.year }}" != "" ]]
+          then
+            month=${{ github.event.inputs.year }}
+            echo $month
           else
             month=$(date +%m)
             echo $month
             month=$(expr $(date +%m) - 1)
             echo $month   
             month=$(LC_NUMERIC="en_US.UTF-8" printf "%02d" $month)
-            echo $month     
+            echo $month
+            
+            year=$(date +%Y)
+            echo $year
           fi
           echo "MONTH=$(echo $month)" >> $GITHUB_ENV
           echo "::set-output name=month::${{ env.MONTH }}"
+          echo "YEAR=$(echo $year)" >> $GITHUB_ENV
+          echo "::set-output name=year::${{ env.YEAR }}"
 
       - name: Get Stats for Month
-        run: curl "https://ststaticprodosciwebz2vmu.blob.core.windows.net/data/osci-ranking/monthly/2022/${{ env.MONTH }}.json" | jq '.data' | jq -c '.[] | select( .company == "Opencast Software")' >> ${{ env.FILE }}
+        run: curl "https://ststaticprodosciwebz2vmu.blob.core.windows.net/data/osci-ranking/monthly/${{ env.YEAR }}/${{ env.MONTH }}.json" | jq '.data' | jq -c '.[] | select( .company == "Opencast Software")' >> ${{ env.FILE }}
 
       - name: Setup Git Config
         if: ${{ github.event.inputs.month }} != "" }}
