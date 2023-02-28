@@ -42,10 +42,14 @@ jobs:
           then
             month=${{ github.event.inputs.month }}
             echo $month
+            year=${{ github.event.inputs.year }}
+            echo $year
           elif [[ "${{ github.event.inputs.year }}" != "" ]]
           then
-            month=${{ github.event.inputs.year }}
+            month=${{ github.event.inputs.month }}
             echo $month
+            year=${{ github.event.inputs.year }}
+            echo $year
           else
             month=$(date +%m)
             echo $month
