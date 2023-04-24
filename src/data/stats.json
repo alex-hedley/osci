@@ -402,6 +402,37 @@
         { "name": "apache-2.0", "amount": 162 }
       ],
       "industry": "Technology"
+    },
+    "03": {
+      "positionChange": 4,
+      "company": "Opencast Software",
+      "activeContributors": 5,
+      "activeContributorsChange": 0,
+      "totalCommunity": 8,
+      "totalCommunityChange": 2,
+      "position": 215,
+      "yoy": [
+        { "date": "2023-03-31", "active": 5 },
+        { "date": "2022-03-31", "active": [] },
+        { "date": "2021-03-31", "active": [] },
+        { "date": "2020-03-31", "active": [] },
+        { "date": "2019-03-31", "active": [] },
+        { "date": "2018-03-31", "active": [] },
+        { "date": "2017-03-31", "active": [] },
+        { "date": "2016-03-31", "active": [] }
+      ],
+      "repositories": null,
+      "languages": [
+        { "name": "Scala", "amount": 154 },
+        { "name": "Java", "amount": 38 },
+        { "name": "JavaScript", "amount": 1 },
+        { "name": "HCL", "amount": 2 }
+      ],
+      "licenses": [
+        { "name": "mit", "amount": 3 },
+        { "name": "apache-2.0", "amount": 192 }
+      ],
+      "industry": "Technology"
     }
   }
 }
