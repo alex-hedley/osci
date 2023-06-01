@@ -433,7 +433,38 @@
         { "name": "apache-2.0", "amount": 192 }
       ],
       "industry": "Technology"
+    },
+    "04": {
+      "positionChange": -4,
+      "company": "Opencast Software",
+      "activeContributors": 6,
+      "activeContributorsChange": 1,
+      "totalCommunity": 10,
+      "totalCommunityChange": 1,
+      "position": 229,
+      "yoy": [
+        { "date": "2023-04-30", "active": 6 },
+        { "date": "2022-04-30", "active": 7 },
+        { "date": "2021-04-30", "active": [] },
+        { "date": "2020-04-30", "active": [] },
+        { "date": "2019-04-30", "active": [] },
+        { "date": "2018-04-30", "active": [] },
+        { "date": "2017-04-30", "active": [] },
+        { "date": "2016-04-30", "active": [] }
+      ],
+      "repositories": null,
+      "languages": [
+        { "name": "JavaScript", "amount": 1 },
+        { "name": "HTML", "amount": 1 },
+        { "name": "HCL", "amount": 2 },
+        { "name": "Java", "amount": 38 },
+        { "name": "Scala", "amount": 271 }
+      ],
+      "licenses": [
+        { "name": "apache-2.0", "amount": 309 },
+        { "name": "mit", "amount": 4 }
+      ],
+      "industry": "Technology"
     }
   }
 }
-{"positionChange":-4,"company":"Opencast Software","activeContributors":6,"activeContributorsChange":1,"totalCommunity":10,"totalCommunityChange":1,"position":229,"yoy":[{"date":"2023-04-30","active":6},{"date":"2022-04-30","active":7},{"date":"2021-04-30","active":[]},{"date":"2020-04-30","active":[]},{"date":"2019-04-30","active":[]},{"date":"2018-04-30","active":[]},{"date":"2017-04-30","active":[]},{"date":"2016-04-30","active":[]}],"repositories":null,"languages":[{"name":"JavaScript","amount":1},{"name":"HTML","amount":1},{"name":"HCL","amount":2},{"name":"Java","amount":38},{"name":"Scala","amount":271}],"licenses":[{"name":"apache-2.0","amount":309},{"name":"mit","amount":4}],"industry":"Technology"}
