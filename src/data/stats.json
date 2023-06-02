@@ -465,7 +465,45 @@
         { "name": "mit", "amount": 4 }
       ],
       "industry": "Technology"
+    },
+    "05": {
+      "positionChange": 3,
+      "company": "Opencast Software",
+      "activeContributors": 6,
+      "activeContributorsChange": 0,
+      "totalCommunity": 10,
+      "totalCommunityChange": 0,
+      "position": 232,
+      "yoy": [
+        { "date": "2023-05-31", "active": 6 },
+        { "date": "2022-05-31", "active": 10 },
+        { "date": "2021-05-31", "active": [] },
+        { "date": "2020-05-31", "active": [] },
+        { "date": "2019-05-31", "active": [] },
+        { "date": "2018-05-31", "active": [] },
+        { "date": "2017-05-31", "active": [] },
+        { "date": "2016-05-31", "active": [] }
+      ],
+      "repositories": [
+        { "name": "hmrc/one-stop-shop-registration-frontend", "amount": 3 },
+        {
+          "name": "hmrc/one-stop-shop-registration-journey-tests",
+          "amount": 3
+        },
+        { "name": "hmrc/sca-change-of-circumstances-frontend", "amount": 1 }
+      ],
+      "languages": [
+        { "name": "HTML", "amount": 1 },
+        { "name": "JavaScript", "amount": 1 },
+        { "name": "HCL", "amount": 2 },
+        { "name": "Java", "amount": 38 },
+        { "name": "Scala", "amount": 364 }
+      ],
+      "licenses": [
+        { "name": "mit", "amount": 4 },
+        { "name": "apache-2.0", "amount": 402 }
+      ],
+      "industry": "Technology"
     }
   }
 }
-{"positionChange":3,"company":"Opencast Software","activeContributors":6,"activeContributorsChange":0,"totalCommunity":10,"totalCommunityChange":0,"position":232,"yoy":[{"date":"2023-05-31","active":6},{"date":"2022-05-31","active":10},{"date":"2021-05-31","active":[]},{"date":"2020-05-31","active":[]},{"date":"2019-05-31","active":[]},{"date":"2018-05-31","active":[]},{"date":"2017-05-31","active":[]},{"date":"2016-05-31","active":[]}],"repositories":[{"name":"hmrc/one-stop-shop-registration-frontend","amount":3},{"name":"hmrc/one-stop-shop-registration-journey-tests","amount":3},{"name":"hmrc/sca-change-of-circumstances-frontend","amount":1}],"languages":[{"name":"HTML","amount":1},{"name":"JavaScript","amount":1},{"name":"HCL","amount":2},{"name":"Java","amount":38},{"name":"Scala","amount":364}],"licenses":[{"name":"mit","amount":4},{"name":"apache-2.0","amount":402}],"industry":"Technology"}
