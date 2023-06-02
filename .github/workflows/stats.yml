@@ -89,15 +89,16 @@ jobs:
         with:
           script: |
             const { MONTH } = process.env
+            const { YEAR } = process.env
             const { repo, owner } = context.repo;
             const result = await github.rest.pulls.create({
-              title: `Added data for month ${MONTH}`,
+              title: `Added data for month ${MONTH}, year ${YEAR}`,
               owner,
               repo,
               head: `stats/${MONTH}`,
               base: 'main',
               body: [
-                `Added data for month ${MONTH}`,
+                `Added data for month ${MONTH}, year ${YEAR}`,
               ].join('\n')
             });
             github.rest.issues.addLabels({
