@@ -507,3 +507,4 @@
     }
   }
 }
+{"positionChange":7,"company":"Opencast Software","activeContributors":6,"activeContributorsChange":0,"totalCommunity":10,"totalCommunityChange":0,"position":239,"yoy":[{"date":"2023-06-30","active":6},{"date":"2022-06-30","active":10},{"date":"2021-06-30","active":[]},{"date":"2020-06-30","active":[]},{"date":"2019-06-30","active":[]},{"date":"2018-06-30","active":[]},{"date":"2017-06-30","active":[]},{"date":"2016-06-30","active":[]}],"repositories":null,"languages":[{"name":"Java","amount":38},{"name":"HCL","amount":2},{"name":"JavaScript","amount":1},{"name":"Scala","amount":433},{"name":"HTML","amount":1}],"licenses":[{"name":"apache-2.0","amount":471},{"name":"mit","amount":4}],"industry":"Technology"}
