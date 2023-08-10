@@ -1,0 +1,11 @@
+table, tr, th, td {
+    border: 1px solid lightgray;
+}
+
+th {
+    background-color: lightgray;
+}
+
+td {
+    text-align: center
+}

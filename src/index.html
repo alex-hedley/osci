@@ -61,12 +61,16 @@
         <div class="container">
           <div class="row">
             <div class="col">
-              Year:
-              <select ng-model="selectedYear" ng-change="loadFile()">
-                <option ng-repeat="year in years" value="{{year}}">
-                  {{year}}
-                </option>
-              </select>
+              
+              <div class="form-group">
+                <label class="label">Year:</label>
+                <select ng-model="selectedYear" ng-change="loadFile()" class="form-control">
+                  <option ng-repeat="year in years" value="{{year}}">
+                    {{year}}
+                  </option>
+                </select>
+              </div>
+              
             </div>
           </div>
 
@@ -77,7 +81,7 @@
               <table id="results" class="sortable">
                 <thead>
                   <tr>
-                    <!-- <th></th> -->
+                    <th>Month</th>
                     <th>Position Change</th>
                     <th>Active Contributors</th>
                     <th>Active Contributors Change</th>
@@ -87,8 +91,8 @@
                   </tr>
                 </thead>
                 <tbody>
-                  <tr ng-repeat="item in data">
-                    <!-- <td></td> -->
+                  <tr ng-repeat="item in data track by $index">
+                    <td>{{$index+1}}</td>
                     <td>{{item.positionChange}}</td>
                     <td>{{item.activeContributors}}</td>
                     <td>{{item.activeContributorsChange}}</td>
@@ -119,36 +123,22 @@
             >
               <div class="card" style="width: 18rem">
                 <div class="card-header">
-                  <span class="badge badge-secondary"
-                    >{{item.positionChange}}</span
-                  >
-                  <span class="badge badge-secondary"
-                    >{{item.activeContributors}}</span
-                  >
-                  <span class="badge badge-secondary"
-                    >{{item.activeContributorsChange}}</span
-                  >
-                  <span class="badge badge-secondary"
-                    >{{item.totalCommunity}}</span
-                  >
-                  <span class="badge badge-secondary"
-                    >{{item.totalCommunityChange}}</span
-                  >
-                  <span class="badge badge-secondary">{{item.position}}</span>
+                  <span class="badge badge-secondary" title="Position Change">{{item.positionChange}}</span>
+                  <span class="badge badge-secondary" title="Active Contributors">{{item.activeContributors}}</span>
+                  <span class="badge badge-secondary" title="Active Contributors Change">{{item.activeContributorsChange}}</span>
+                  <span class="badge badge-secondary" title="Total Community">{{item.totalCommunity}}</span>
+                  <span class="badge badge-secondary" title="Total Community Change">{{item.totalCommunityChange}}</span>
+                  <span class="badge badge-secondary" title="Position">{{item.position}}</span>
                 </div>
 
                 <div class="card-body">
-                  <!-- <h5 class="card-title"></h5> -->
-                  <!-- <p class="card-text"></p> -->
                   <div ng-repeat="contributor in item.contributors">
                     <img
                       ng-src="https://github.com/{{contributor.Contributor}}.png?size=40"
                       alt="{{contributor.Contributor}}"
                       width="40"
                     />
-                    <span class="badge badge-primary"
-                      >{{contributor.Commits}}</span
-                    >
+                    <span class="badge badge-primary" title="Commits">{{contributor.Commits}}</span>
                   </div>
                 </div>
 
@@ -157,9 +147,7 @@
                   <div ng-repeat="language in item.languages">
                     <p class="card-text">
                       {{language.name}}
-                      <span class="badge badge-warning"
-                        >{{language.amount}}</span
-                      >
+                      <span class="badge badge-warning" title="Amount">{{language.amount}}</span>
                     </p>
                   </div>
                 </div>
@@ -169,10 +157,21 @@
                   <div ng-repeat="license in item.licenses">
                     <p class="card-text">
                       {{license.name}}
-                      <span class="badge badge-info">{{license.amount}}</span>
+                      <span class="badge badge-info" title="Amount">{{license.amount}}</span>
                     </p>
                   </div>
                 </div>
+
+                <div class="card-footer">
+                  <h6 class="card-subtitle">Repositories</h6>
+                  <div ng-repeat="repository in item.repositories">
+                    <p class="card-text">
+                      <a ng-href="https://github.com/{{repository.name}}" target="_blank">{{repository.name}}</a>
+                      <span class="badge badge-secondary" title="Amount">{{repository.amount}}</span>
+                    </p>
+                  </div>
+                </div>
+                
               </div>
             </div>
           </div>
@@ -182,11 +181,9 @@
 
     <footer class="footer">
       <div class="container">
-        <span class="text-muted"
-          ><a href="https://opencastsoftware.com" target="_blank"
-            >Opencast Software</a
-          ></span
-        >
+        <span class="text-muted">
+          <a href="https://opencastsoftware.com" target="_blank">Opencast Software</a>
+        </span>
       </div>
     </footer>
 

@@ -118,9 +118,12 @@ myApp.controller("myController", function ($scope, $http, $q, $filter) {
       options,
     };
 
+    // $("#myChart").empty();
+
     let ctx = $("#myChart");
 
     let lineGraph = new Chart(ctx, config);
+    lineGraph.update();
   };
 
   $scope.init();
