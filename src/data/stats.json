@@ -536,6 +536,39 @@
         { "name": "mit", "amount": 4 }
       ],
       "industry": "Technology"
+    },
+    "07": {
+      "positionChange": 3,
+      "company": "Opencast Software",
+      "activeContributors": 6,
+      "activeContributorsChange": 0,
+      "totalCommunity": 11,
+      "totalCommunityChange": 1,
+      "position": 242,
+      "yoy": [
+        { "date": "2023-07-31", "active": 6 },
+        { "date": "2022-07-31", "active": 10 },
+        { "date": "2021-07-31", "active": [] },
+        { "date": "2020-07-31", "active": [] },
+        { "date": "2019-07-31", "active": [] },
+        { "date": "2018-07-31", "active": [] },
+        { "date": "2017-07-31", "active": [] },
+        { "date": "2016-07-31", "active": [] }
+      ],
+      "repositories": [{ "name": "hmrc/one-stop-shop-returns", "amount": 1 }],
+      "languages": [
+        { "name": "Java", "amount": 42 },
+        { "name": "HCL", "amount": 2 },
+        { "name": "JavaScript", "amount": 1 },
+        { "name": "Scala", "amount": 508 },
+        { "name": "HTML", "amount": 1 }
+      ],
+      "licenses": [
+        { "name": "apache-2.0", "amount": 546 },
+        { "name": "mit", "amount": 4 },
+        { "name": "gpl-3.0", "amount": 4 }
+      ],
+      "industry": "Technology"
     }
   }
 }
