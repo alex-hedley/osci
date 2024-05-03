@@ -9,27 +9,72 @@
       "totalCommunityChange": 0,
       "position": 228,
       "yoy": [
-        { "date": "2020-04-30", "active": [] },
-        { "date": "2021-04-30", "active": [] }
+        {
+          "date": "2020-04-30",
+          "active": []
+        },
+        {
+          "date": "2021-04-30",
+          "active": []
+        }
       ],
       "contributors": [
-        { "Contributor": "carl.thompson", "Commits": 57 },
-        { "Contributor": "David Gregory", "Commits": 56 },
-        { "Contributor": "liandra-giacomine", "Commits": 17 },
-        { "Contributor": "Craig Lang", "Commits": 12 },
-        { "Contributor": "mauro-fanton", "Commits": 12 }
+        {
+          "Contributor": "carl.thompson",
+          "Commits": 57
+        },
+        {
+          "Contributor": "David Gregory",
+          "Commits": 56
+        },
+        {
+          "Contributor": "liandra-giacomine",
+          "Commits": 17
+        },
+        {
+          "Contributor": "Craig Lang",
+          "Commits": 12
+        },
+        {
+          "Contributor": "mauro-fanton",
+          "Commits": 12
+        }
       ],
       "languages": [
-        { "name": "HTML", "amount": 12 },
-        { "name": "JavaScript", "amount": 5 },
-        { "name": "Gherkin", "amount": 4 },
-        { "name": "Scala", "amount": 136 },
-        { "name": "Java", "amount": 11 }
+        {
+          "name": "HTML",
+          "amount": 12
+        },
+        {
+          "name": "JavaScript",
+          "amount": 5
+        },
+        {
+          "name": "Gherkin",
+          "amount": 4
+        },
+        {
+          "name": "Scala",
+          "amount": 136
+        },
+        {
+          "name": "Java",
+          "amount": 11
+        }
       ],
       "licenses": [
-        { "name": "apache-2.0", "amount": 136 },
-        { "name": "other", "amount": 32 },
-        { "name": "mit", "amount": 12 }
+        {
+          "name": "apache-2.0",
+          "amount": 136
+        },
+        {
+          "name": "other",
+          "amount": 32
+        },
+        {
+          "name": "mit",
+          "amount": 12
+        }
       ],
       "industry": "Technology"
     },
@@ -42,29 +87,80 @@
       "totalCommunityChange": 5,
       "position": 217,
       "yoy": [
-        { "date": "2020-05-31", "active": [] },
-        { "date": "2021-05-31", "active": [] }
+        {
+          "date": "2020-05-31",
+          "active": []
+        },
+        {
+          "date": "2021-05-31",
+          "active": []
+        }
       ],
       "contributors": [
-        { "Contributor": "carl.thompson", "Commits": 111 },
-        { "Contributor": "David Gregory", "Commits": 109 },
-        { "Contributor": "liandra-giacomine", "Commits": 44 },
-        { "Contributor": "mauro-fanton", "Commits": 33 },
-        { "Contributor": "susan-badel", "Commits": 22 }
+        {
+          "Contributor": "carl.thompson",
+          "Commits": 111
+        },
+        {
+          "Contributor": "David Gregory",
+          "Commits": 109
+        },
+        {
+          "Contributor": "liandra-giacomine",
+          "Commits": 44
+        },
+        {
+          "Contributor": "mauro-fanton",
+          "Commits": 33
+        },
+        {
+          "Contributor": "susan-badel",
+          "Commits": 22
+        }
       ],
       "languages": [
-        { "name": "HTML", "amount": 15 },
-        { "name": "JavaScript", "amount": 12 },
-        { "name": "Gherkin", "amount": 6 },
-        { "name": "Scala", "amount": 333 },
-        { "name": "Java", "amount": 25 },
-        { "name": "CSS", "amount": 2 },
-        { "name": "Batchfile", "amount": 1 }
+        {
+          "name": "HTML",
+          "amount": 15
+        },
+        {
+          "name": "JavaScript",
+          "amount": 12
+        },
+        {
+          "name": "Gherkin",
+          "amount": 6
+        },
+        {
+          "name": "Scala",
+          "amount": 333
+        },
+        {
+          "name": "Java",
+          "amount": 25
+        },
+        {
+          "name": "CSS",
+          "amount": 2
+        },
+        {
+          "name": "Batchfile",
+          "amount": 1
+        }
       ],
       "licenses": [
-        { "name": "apache-2.0", "amount": 331 },
-        { "name": "other", "amount": 73 },
-        { "name": "mit", "amount": 31 }
+        {
+          "name": "apache-2.0",
+          "amount": 331
+        },
+        {
+          "name": "other",
+          "amount": 73
+        },
+        {
+          "name": "mit",
+          "amount": 31
+        }
       ],
       "industry": "Technology"
     },
@@ -77,29 +173,80 @@
       "totalCommunityChange": 0,
       "position": 221,
       "yoy": [
-        { "date": "2020-06-30", "active": [] },
-        { "date": "2021-06-30", "active": [] }
+        {
+          "date": "2020-06-30",
+          "active": []
+        },
+        {
+          "date": "2021-06-30",
+          "active": []
+        }
       ],
       "contributors": [
-        { "Contributor": "carl.thompson", "Commits": 195 },
-        { "Contributor": "David Gregory", "Commits": 172 },
-        { "Contributor": "liandra-giacomine", "Commits": 63 },
-        { "Contributor": "mauro-fanton", "Commits": 57 },
-        { "Contributor": "susan-badel", "Commits": 33 }
+        {
+          "Contributor": "carl.thompson",
+          "Commits": 195
+        },
+        {
+          "Contributor": "David Gregory",
+          "Commits": 172
+        },
+        {
+          "Contributor": "liandra-giacomine",
+          "Commits": 63
+        },
+        {
+          "Contributor": "mauro-fanton",
+          "Commits": 57
+        },
+        {
+          "Contributor": "susan-badel",
+          "Commits": 33
+        }
       ],
       "languages": [
-        { "name": "HTML", "amount": 15 },
-        { "name": "JavaScript", "amount": 14 },
-        { "name": "Gherkin", "amount": 11 },
-        { "name": "Scala", "amount": 537 },
-        { "name": "Java", "amount": 30 },
-        { "name": "CSS", "amount": 2 },
-        { "name": "Batchfile", "amount": 1 }
+        {
+          "name": "HTML",
+          "amount": 15
+        },
+        {
+          "name": "JavaScript",
+          "amount": 14
+        },
+        {
+          "name": "Gherkin",
+          "amount": 11
+        },
+        {
+          "name": "Scala",
+          "amount": 537
+        },
+        {
+          "name": "Java",
+          "amount": 30
+        },
+        {
+          "name": "CSS",
+          "amount": 2
+        },
+        {
+          "name": "Batchfile",
+          "amount": 1
+        }
       ],
       "licenses": [
-        { "name": "apache-2.0", "amount": 542 },
-        { "name": "other", "amount": 94 },
-        { "name": "mit", "amount": 31 }
+        {
+          "name": "apache-2.0",
+          "amount": 542
+        },
+        {
+          "name": "other",
+          "amount": 94
+        },
+        {
+          "name": "mit",
+          "amount": 31
+        }
       ],
       "industry": "Technology"
     },
@@ -112,30 +259,84 @@
       "totalCommunityChange": 2,
       "position": 224,
       "yoy": [
-        { "date": "2020-07-31", "active": [] },
-        { "date": "2021-07-31", "active": [] }
+        {
+          "date": "2020-07-31",
+          "active": []
+        },
+        {
+          "date": "2021-07-31",
+          "active": []
+        }
       ],
       "contributors": [
-        { "Contributor": "carl.thompson", "Commits": 246 },
-        { "Contributor": "David Gregory", "Commits": 194 },
-        { "Contributor": "liandra-giacomine", "Commits": 113 },
-        { "Contributor": "mauro-fanton", "Commits": 90 },
-        { "Contributor": "Adam Liptrot", "Commits": 47 }
+        {
+          "Contributor": "carl.thompson",
+          "Commits": 246
+        },
+        {
+          "Contributor": "David Gregory",
+          "Commits": 194
+        },
+        {
+          "Contributor": "liandra-giacomine",
+          "Commits": 113
+        },
+        {
+          "Contributor": "mauro-fanton",
+          "Commits": 90
+        },
+        {
+          "Contributor": "Adam Liptrot",
+          "Commits": 47
+        }
       ],
       "languages": [
-        { "name": "HTML", "amount": 15 },
-        { "name": "JavaScript", "amount": 15 },
-        { "name": "Gherkin", "amount": 11 },
-        { "name": "PHP", "amount": 1 },
-        { "name": "Scala", "amount": 721 },
-        { "name": "Java", "amount": 30 },
-        { "name": "CSS", "amount": 2 },
-        { "name": "Batchfile", "amount": 1 }
+        {
+          "name": "HTML",
+          "amount": 15
+        },
+        {
+          "name": "JavaScript",
+          "amount": 15
+        },
+        {
+          "name": "Gherkin",
+          "amount": 11
+        },
+        {
+          "name": "PHP",
+          "amount": 1
+        },
+        {
+          "name": "Scala",
+          "amount": 721
+        },
+        {
+          "name": "Java",
+          "amount": 30
+        },
+        {
+          "name": "CSS",
+          "amount": 2
+        },
+        {
+          "name": "Batchfile",
+          "amount": 1
+        }
       ],
       "licenses": [
-        { "name": "apache-2.0", "amount": 728 },
-        { "name": "other", "amount": 96 },
-        { "name": "mit", "amount": 32 }
+        {
+          "name": "apache-2.0",
+          "amount": 728
+        },
+        {
+          "name": "other",
+          "amount": 96
+        },
+        {
+          "name": "mit",
+          "amount": 32
+        }
       ],
       "industry": "Technology"
     },
@@ -148,31 +349,88 @@
       "totalCommunityChange": 0,
       "position": 222,
       "yoy": [
-        { "date": "2020-08-31", "active": [] },
-        { "date": "2021-08-31", "active": [] }
+        {
+          "date": "2020-08-31",
+          "active": []
+        },
+        {
+          "date": "2021-08-31",
+          "active": []
+        }
       ],
       "contributors": [
-        { "Contributor": "carl.thompson", "Commits": 299 },
-        { "Contributor": "David Gregory", "Commits": 225 },
-        { "Contributor": "liandra-giacomine", "Commits": 130 },
-        { "Contributor": "mauro-fanton", "Commits": 113 },
-        { "Contributor": "owen.gilfellon", "Commits": 66 }
+        {
+          "Contributor": "carl.thompson",
+          "Commits": 299
+        },
+        {
+          "Contributor": "David Gregory",
+          "Commits": 225
+        },
+        {
+          "Contributor": "liandra-giacomine",
+          "Commits": 130
+        },
+        {
+          "Contributor": "mauro-fanton",
+          "Commits": 113
+        },
+        {
+          "Contributor": "owen.gilfellon",
+          "Commits": 66
+        }
       ],
       "languages": [
-        { "name": "HTML", "amount": 15 },
-        { "name": "JavaScript", "amount": 15 },
-        { "name": "Gherkin", "amount": 23 },
-        { "name": "PHP", "amount": 1 },
-        { "name": "Scala", "amount": 866 },
-        { "name": "Java", "amount": 30 },
-        { "name": "Nunjucks", "amount": 5 },
-        { "name": "CSS", "amount": 2 },
-        { "name": "Batchfile", "amount": 1 }
+        {
+          "name": "HTML",
+          "amount": 15
+        },
+        {
+          "name": "JavaScript",
+          "amount": 15
+        },
+        {
+          "name": "Gherkin",
+          "amount": 23
+        },
+        {
+          "name": "PHP",
+          "amount": 1
+        },
+        {
+          "name": "Scala",
+          "amount": 866
+        },
+        {
+          "name": "Java",
+          "amount": 30
+        },
+        {
+          "name": "Nunjucks",
+          "amount": 5
+        },
+        {
+          "name": "CSS",
+          "amount": 2
+        },
+        {
+          "name": "Batchfile",
+          "amount": 1
+        }
       ],
       "licenses": [
-        { "name": "apache-2.0", "amount": 890 },
-        { "name": "other", "amount": 99 },
-        { "name": "mit", "amount": 46 }
+        {
+          "name": "apache-2.0",
+          "amount": 890
+        },
+        {
+          "name": "other",
+          "amount": 99
+        },
+        {
+          "name": "mit",
+          "amount": 46
+        }
       ],
       "industry": "Technology"
     },
@@ -185,35 +443,104 @@
       "totalCommunityChange": 2,
       "position": 224,
       "yoy": [
-        { "date": "2021-09-30", "active": [] },
-        { "date": "2020-09-30", "active": [] },
-        { "date": "2019-09-30", "active": [] },
-        { "date": "2018-09-30", "active": [] },
-        { "date": "2017-09-30", "active": [] },
-        { "date": "2016-09-30", "active": [] }
+        {
+          "date": "2021-09-30",
+          "active": []
+        },
+        {
+          "date": "2020-09-30",
+          "active": []
+        },
+        {
+          "date": "2019-09-30",
+          "active": []
+        },
+        {
+          "date": "2018-09-30",
+          "active": []
+        },
+        {
+          "date": "2017-09-30",
+          "active": []
+        },
+        {
+          "date": "2016-09-30",
+          "active": []
+        }
       ],
       "repositories": [
-        { "name": "DeaneOC/openapi-generator", "amount": 3 },
-        { "name": "hmrc/sca-change-of-circumstances-frontend", "amount": 3 },
-        { "name": "opencastsoftware/selenium-test-starter-java", "amount": 1 },
-        { "name": "hmrc/fh-registration-frontend", "amount": 1 }
+        {
+          "name": "DeaneOC/openapi-generator",
+          "amount": 3
+        },
+        {
+          "name": "hmrc/sca-change-of-circumstances-frontend",
+          "amount": 3
+        },
+        {
+          "name": "opencastsoftware/selenium-test-starter-java",
+          "amount": 1
+        },
+        {
+          "name": "hmrc/fh-registration-frontend",
+          "amount": 1
+        }
       ],
       "languages": [
-        { "name": "HTML", "amount": 15 },
-        { "name": "JavaScript", "amount": 15 },
-        { "name": "Gherkin", "amount": 23 },
-        { "name": "PHP", "amount": 1 },
-        { "name": "Scala", "amount": 1022 },
-        { "name": "Java", "amount": 32 },
-        { "name": "Nunjucks", "amount": 5 },
-        { "name": "CSS", "amount": 2 },
-        { "name": "Batchfile", "amount": 1 }
+        {
+          "name": "HTML",
+          "amount": 15
+        },
+        {
+          "name": "JavaScript",
+          "amount": 15
+        },
+        {
+          "name": "Gherkin",
+          "amount": 23
+        },
+        {
+          "name": "PHP",
+          "amount": 1
+        },
+        {
+          "name": "Scala",
+          "amount": 1022
+        },
+        {
+          "name": "Java",
+          "amount": 32
+        },
+        {
+          "name": "Nunjucks",
+          "amount": 5
+        },
+        {
+          "name": "CSS",
+          "amount": 2
+        },
+        {
+          "name": "Batchfile",
+          "amount": 1
+        }
       ],
       "licenses": [
-        { "name": "apache-2.0", "amount": 1052 },
-        { "name": "other", "amount": 99 },
-        { "name": "mit", "amount": 49 },
-        { "name": "gpl-3.0", "amount": 1 }
+        {
+          "name": "apache-2.0",
+          "amount": 1052
+        },
+        {
+          "name": "other",
+          "amount": 99
+        },
+        {
+          "name": "mit",
+          "amount": 49
+        },
+        {
+          "name": "gpl-3.0",
+          "amount": 1
+        }
       ],
       "industry": "Technology"
     },
@@ -226,36 +553,108 @@
       "totalCommunityChange": 2,
       "position": 220,
       "yoy": [
-        { "date": "2022-10-25", "active": 13 },
-        { "date": "2021-10-25", "active": [] },
-        { "date": "2020-10-25", "active": [] },
-        { "date": "2019-10-25", "active": [] },
-        { "date": "2018-10-25", "active": [] },
-        { "date": "2017-10-25", "active": [] },
-        { "date": "2016-10-25", "active": [] }
+        {
+          "date": "2022-10-25",
+          "active": 13
+        },
+        {
+          "date": "2021-10-25",
+          "active": []
+        },
+        {
+          "date": "2020-10-25",
+          "active": []
+        },
+        {
+          "date": "2019-10-25",
+          "active": []
+        },
+        {
+          "date": "2018-10-25",
+          "active": []
+        },
+        {
+          "date": "2017-10-25",
+          "active": []
+        },
+        {
+          "date": "2016-10-25",
+          "active": []
+        }
       ],
       "repositories": [
-        { "name": "hmrc/plastic-packaging-tax-returns", "amount": 1 },
-        { "name": "hmrc/sca-change-of-circumstances-frontend", "amount": 1 },
-        { "name": "opencastsoftware/selenium-test-starter-java", "amount": 1 }
+        {
+          "name": "hmrc/plastic-packaging-tax-returns",
+          "amount": 1
+        },
+        {
+          "name": "hmrc/sca-change-of-circumstances-frontend",
+          "amount": 1
+        },
+        {
+          "name": "opencastsoftware/selenium-test-starter-java",
+          "amount": 1
+        }
       ],
       "languages": [
-        { "name": "HTML", "amount": 20 },
-        { "name": "JavaScript", "amount": 15 },
-        { "name": "Gherkin", "amount": 24 },
-        { "name": "PHP", "amount": 1 },
-        { "name": "Scala", "amount": 1085 },
-        { "name": "Java", "amount": 50 },
-        { "name": "Nunjucks", "amount": 5 },
-        { "name": "CSS", "amount": 2 },
-        { "name": "Batchfile", "amount": 1 }
+        {
+          "name": "HTML",
+          "amount": 20
+        },
+        {
+          "name": "JavaScript",
+          "amount": 15
+        },
+        {
+          "name": "Gherkin",
+          "amount": 24
+        },
+        {
+          "name": "PHP",
+          "amount": 1
+        },
+        {
+          "name": "Scala",
+          "amount": 1085
+        },
+        {
+          "name": "Java",
+          "amount": 50
+        },
+        {
+          "name": "Nunjucks",
+          "amount": 5
+        },
+        {
+          "name": "CSS",
+          "amount": 2
+        },
+        {
+          "name": "Batchfile",
+          "amount": 1
+        }
       ],
       "licenses": [
-        { "name": "apache-2.0", "amount": 1119 },
-        { "name": "other", "amount": 109 },
-        { "name": "mit", "amount": 59 },
-        { "name": "agpl-3.0", "amount": 7 },
-        { "name": "gpl-3.0", "amount": 5 }
+        {
+          "name": "apache-2.0",
+          "amount": 1119
+        },
+        {
+          "name": "other",
+          "amount": 109
+        },
+        {
+          "name": "mit",
+          "amount": 59
+        },
+        {
+          "name": "agpl-3.0",
+          "amount": 7
+        },
+        {
+          "name": "gpl-3.0",
+          "amount": 5
+        }
       ],
       "industry": "Technology"
     },
@@ -268,41 +667,116 @@
       "totalCommunityChange": 0,
       "position": 225,
       "yoy": [
-        { "date": "2022-11-30", "active": 13 },
-        { "date": "2021-11-30", "active": [] },
-        { "date": "2020-11-30", "active": [] },
-        { "date": "2019-11-30", "active": [] },
-        { "date": "2018-11-30", "active": [] },
-        { "date": "2017-11-30", "active": [] },
-        { "date": "2016-11-30", "active": [] }
+        {
+          "date": "2022-11-30",
+          "active": 13
+        },
+        {
+          "date": "2021-11-30",
+          "active": []
+        },
+        {
+          "date": "2020-11-30",
+          "active": []
+        },
+        {
+          "date": "2019-11-30",
+          "active": []
+        },
+        {
+          "date": "2018-11-30",
+          "active": []
+        },
+        {
+          "date": "2017-11-30",
+          "active": []
+        },
+        {
+          "date": "2016-11-30",
+          "active": []
+        }
       ],
       "repositories": [
-        { "name": "hmrc/cgt-property-disposals-frontend", "amount": 3 },
-        { "name": "hmrc/sca-change-of-circumstances-frontend", "amount": 3 },
+        {
+          "name": "hmrc/cgt-property-disposals-frontend",
+          "amount": 3
+        },
+        {
+          "name": "hmrc/sca-change-of-circumstances-frontend",
+          "amount": 3
+        },
         {
           "name": "hmrc/one-stop-shop-registration-journey-tests",
           "amount": 1
         },
-        { "name": "hmrc/help-to-save-frontend", "amount": 1 },
-        { "name": "hmrc/child-benefit-view-frontend", "amount": 1 }
+        {
+          "name": "hmrc/help-to-save-frontend",
+          "amount": 1
+        },
+        {
+          "name": "hmrc/child-benefit-view-frontend",
+          "amount": 1
+        }
       ],
       "languages": [
-        { "name": "HTML", "amount": 20 },
-        { "name": "JavaScript", "amount": 15 },
-        { "name": "Gherkin", "amount": 24 },
-        { "name": "PHP", "amount": 1 },
-        { "name": "Scala", "amount": 1260 },
-        { "name": "Java", "amount": 77 },
-        { "name": "Nunjucks", "amount": 5 },
-        { "name": "CSS", "amount": 2 },
-        { "name": "Batchfile", "amount": 5 }
+        {
+          "name": "HTML",
+          "amount": 20
+        },
+        {
+          "name": "JavaScript",
+          "amount": 15
+        },
+        {
+          "name": "Gherkin",
+          "amount": 24
+        },
+        {
+          "name": "PHP",
+          "amount": 1
+        },
+        {
+          "name": "Scala",
+          "amount": 1260
+        },
+        {
+          "name": "Java",
+          "amount": 77
+        },
+        {
+          "name": "Nunjucks",
+          "amount": 5
+        },
+        {
+          "name": "CSS",
+          "amount": 2
+        },
+        {
+          "name": "Batchfile",
+          "amount": 5
+        }
       ],
       "licenses": [
-        { "name": "apache-2.0", "amount": 1325 },
-        { "name": "other", "amount": 109 },
-        { "name": "mit", "amount": 59 },
-        { "name": "agpl-3.0", "amount": 7 },
-        { "name": "gpl-3.0", "amount": 5 }
+        {
+          "name": "apache-2.0",
+          "amount": 1325
+        },
+        {
+          "name": "other",
+          "amount": 109
+        },
+        {
+          "name": "mit",
+          "amount": 59
+        },
+        {
+          "name": "agpl-3.0",
+          "amount": 7
+        },
+        {
+          "name": "gpl-3.0",
+          "amount": 5
+        }
       ],
       "industry": "Technology"
     },
@@ -315,33 +789,99 @@
       "totalCommunityChange": 0,
       "position": 226,
       "yoy": [
-        { "date": "2022-12-31", "active": 13 },
-        { "date": "2021-12-31", "active": [] },
-        { "date": "2020-12-31", "active": [] },
-        { "date": "2019-12-31", "active": [] },
-        { "date": "2018-12-31", "active": [] },
-        { "date": "2017-12-31", "active": [] },
-        { "date": "2016-12-31", "active": [] }
+        {
+          "date": "2022-12-31",
+          "active": 13
+        },
+        {
+          "date": "2021-12-31",
+          "active": []
+        },
+        {
+          "date": "2020-12-31",
+          "active": []
+        },
+        {
+          "date": "2019-12-31",
+          "active": []
+        },
+        {
+          "date": "2018-12-31",
+          "active": []
+        },
+        {
+          "date": "2017-12-31",
+          "active": []
+        },
+        {
+          "date": "2016-12-31",
+          "active": []
+        }
       ],
       "repositories": null,
       "languages": [
-        { "name": "HTML", "amount": 20 },
-        { "name": "JavaScript", "amount": 15 },
-        { "name": "Gherkin", "amount": 24 },
-        { "name": "PHP", "amount": 1 },
-        { "name": "C#", "amount": 39 },
-        { "name": "Scala", "amount": 1386 },
-        { "name": "Java", "amount": 115 },
-        { "name": "Nunjucks", "amount": 7 },
-        { "name": "CSS", "amount": 2 },
-        { "name": "Batchfile", "amount": 5 }
+        {
+          "name": "HTML",
+          "amount": 20
+        },
+        {
+          "name": "JavaScript",
+          "amount": 15
+        },
+        {
+          "name": "Gherkin",
+          "amount": 24
+        },
+        {
+          "name": "PHP",
+          "amount": 1
+        },
+        {
+          "name": "C#",
+          "amount": 39
+        },
+        {
+          "name": "Scala",
+          "amount": 1386
+        },
+        {
+          "name": "Java",
+          "amount": 115
+        },
+        {
+          "name": "Nunjucks",
+          "amount": 7
+        },
+        {
+          "name": "CSS",
+          "amount": 2
+        },
+        {
+          "name": "Batchfile",
+          "amount": 5
+        }
       ],
       "licenses": [
-        { "name": "apache-2.0", "amount": 1491 },
-        { "name": "other", "amount": 109 },
-        { "name": "mit", "amount": 98 },
-        { "name": "agpl-3.0", "amount": 7 },
-        { "name": "gpl-3.0", "amount": 5 }
+        {
+          "name": "apache-2.0",
+          "amount": 1491
+        },
+        {
+          "name": "other",
+          "amount": 109
+        },
+        {
+          "name": "mit",
+          "amount": 98
+        },
+        {
+          "name": "agpl-3.0",
+          "amount": 7
+        },
+        {
+          "name": "gpl-3.0",
+          "amount": 5
+        }
       ],
       "industry": "Technology"
     }
@@ -356,21 +896,56 @@
       "totalCommunityChange": 0,
       "position": 222,
       "yoy": [
-        { "date": "2023-01-30", "active": 1 },
-        { "date": "2022-01-30", "active": [] },
-        { "date": "2021-01-30", "active": [] },
-        { "date": "2020-01-30", "active": [] },
-        { "date": "2019-01-30", "active": [] },
-        { "date": "2018-01-30", "active": [] },
-        { "date": "2017-01-30", "active": [] },
-        { "date": "2016-01-30", "active": [] }
+        {
+          "date": "2023-01-30",
+          "active": 1
+        },
+        {
+          "date": "2022-01-30",
+          "active": []
+        },
+        {
+          "date": "2021-01-30",
+          "active": []
+        },
+        {
+          "date": "2020-01-30",
+          "active": []
+        },
+        {
+          "date": "2019-01-30",
+          "active": []
+        },
+        {
+          "date": "2018-01-30",
+          "active": []
+        },
+        {
+          "date": "2017-01-30",
+          "active": []
+        },
+        {
+          "date": "2016-01-30",
+          "active": []
+        }
       ],
       "repositories": null,
       "languages": [
-        { "name": "Scala", "amount": 29 },
-        { "name": "Java", "amount": 14 }
+        {
+          "name": "Scala",
+          "amount": 29
+        },
+        {
+          "name": "Java",
+          "amount": 14
+        }
       ],
-      "licenses": [{ "name": "apache-2.0", "amount": 43 }],
+      "licenses": [
+        {
+          "name": "apache-2.0",
+          "amount": 43
+        }
+      ],
       "industry": "Technology"
     },
     "02": {
@@ -382,24 +957,63 @@
       "totalCommunityChange": 0,
       "position": 211,
       "yoy": [
-        { "date": "2023-02-28", "active": 5 },
-        { "date": "2022-02-28", "active": [] },
-        { "date": "2021-02-28", "active": [] },
-        { "date": "2020-02-28", "active": [] },
-        { "date": "2019-02-28", "active": [] },
-        { "date": "2018-02-28", "active": [] },
-        { "date": "2017-02-28", "active": [] },
-        { "date": "2016-02-28", "active": [] }
+        {
+          "date": "2023-02-28",
+          "active": 5
+        },
+        {
+          "date": "2022-02-28",
+          "active": []
+        },
+        {
+          "date": "2021-02-28",
+          "active": []
+        },
+        {
+          "date": "2020-02-28",
+          "active": []
+        },
+        {
+          "date": "2019-02-28",
+          "active": []
+        },
+        {
+          "date": "2018-02-28",
+          "active": []
+        },
+        {
+          "date": "2017-02-28",
+          "active": []
+        },
+        {
+          "date": "2016-02-28",
+          "active": []
+        }
       ],
       "repositories": null,
       "languages": [
-        { "name": "Scala", "amount": 124 },
-        { "name": "Java", "amount": 38 },
-        { "name": "JavaScript", "amount": 1 }
+        {
+          "name": "Scala",
+          "amount": 124
+        },
+        {
+          "name": "Java",
+          "amount": 38
+        },
+        {
+          "name": "JavaScript",
+          "amount": 1
+        }
       ],
       "licenses": [
-        { "name": "mit", "amount": 1 },
-        { "name": "apache-2.0", "amount": 162 }
+        {
+          "name": "mit",
+          "amount": 1
+        },
+        {
+          "name": "apache-2.0",
+          "amount": 162
+        }
       ],
       "industry": "Technology"
     },
@@ -412,25 +1026,67 @@
       "totalCommunityChange": 2,
       "position": 215,
       "yoy": [
-        { "date": "2023-03-31", "active": 5 },
-        { "date": "2022-03-31", "active": [] },
-        { "date": "2021-03-31", "active": [] },
-        { "date": "2020-03-31", "active": [] },
-        { "date": "2019-03-31", "active": [] },
-        { "date": "2018-03-31", "active": [] },
-        { "date": "2017-03-31", "active": [] },
-        { "date": "2016-03-31", "active": [] }
+        {
+          "date": "2023-03-31",
+          "active": 5
+        },
+        {
+          "date": "2022-03-31",
+          "active": []
+        },
+        {
+          "date": "2021-03-31",
+          "active": []
+        },
+        {
+          "date": "2020-03-31",
+          "active": []
+        },
+        {
+          "date": "2019-03-31",
+          "active": []
+        },
+        {
+          "date": "2018-03-31",
+          "active": []
+        },
+        {
+          "date": "2017-03-31",
+          "active": []
+        },
+        {
+          "date": "2016-03-31",
+          "active": []
+        }
       ],
       "repositories": null,
       "languages": [
-        { "name": "Scala", "amount": 154 },
-        { "name": "Java", "amount": 38 },
-        { "name": "JavaScript", "amount": 1 },
-        { "name": "HCL", "amount": 2 }
+        {
+          "name": "Scala",
+          "amount": 154
+        },
+        {
+          "name": "Java",
+          "amount": 38
+        },
+        {
+          "name": "JavaScript",
+          "amount": 1
+        },
+        {
+          "name": "HCL",
+          "amount": 2
+        }
       ],
       "licenses": [
-        { "name": "mit", "amount": 3 },
-        { "name": "apache-2.0", "amount": 192 }
+        {
+          "name": "mit",
+          "amount": 3
+        },
+        {
+          "name": "apache-2.0",
+          "amount": 192
+        }
       ],
       "industry": "Technology"
     },
@@ -443,26 +1099,71 @@
       "totalCommunityChange": 1,
       "position": 229,
       "yoy": [
-        { "date": "2023-04-30", "active": 6 },
-        { "date": "2022-04-30", "active": 7 },
-        { "date": "2021-04-30", "active": [] },
-        { "date": "2020-04-30", "active": [] },
-        { "date": "2019-04-30", "active": [] },
-        { "date": "2018-04-30", "active": [] },
-        { "date": "2017-04-30", "active": [] },
-        { "date": "2016-04-30", "active": [] }
+        {
+          "date": "2023-04-30",
+          "active": 6
+        },
+        {
+          "date": "2022-04-30",
+          "active": 7
+        },
+        {
+          "date": "2021-04-30",
+          "active": []
+        },
+        {
+          "date": "2020-04-30",
+          "active": []
+        },
+        {
+          "date": "2019-04-30",
+          "active": []
+        },
+        {
+          "date": "2018-04-30",
+          "active": []
+        },
+        {
+          "date": "2017-04-30",
+          "active": []
+        },
+        {
+          "date": "2016-04-30",
+          "active": []
+        }
       ],
       "repositories": null,
       "languages": [
-        { "name": "JavaScript", "amount": 1 },
-        { "name": "HTML", "amount": 1 },
-        { "name": "HCL", "amount": 2 },
-        { "name": "Java", "amount": 38 },
-        { "name": "Scala", "amount": 271 }
+        {
+          "name": "JavaScript",
+          "amount": 1
+        },
+        {
+          "name": "HTML",
+          "amount": 1
+        },
+        {
+          "name": "HCL",
+          "amount": 2
+        },
+        {
+          "name": "Java",
+          "amount": 38
+        },
+        {
+          "name": "Scala",
+          "amount": 271
+        }
       ],
       "licenses": [
-        { "name": "apache-2.0", "amount": 309 },
-        { "name": "mit", "amount": 4 }
+        {
+          "name": "apache-2.0",
+          "amount": 309
+        },
+        {
+          "name": "mit",
+          "amount": 4
+        }
       ],
       "industry": "Technology"
     },
@@ -475,33 +1176,84 @@
       "totalCommunityChange": 0,
       "position": 232,
       "yoy": [
-        { "date": "2023-05-31", "active": 6 },
-        { "date": "2022-05-31", "active": 10 },
-        { "date": "2021-05-31", "active": [] },
-        { "date": "2020-05-31", "active": [] },
-        { "date": "2019-05-31", "active": [] },
-        { "date": "2018-05-31", "active": [] },
-        { "date": "2017-05-31", "active": [] },
-        { "date": "2016-05-31", "active": [] }
+        {
+          "date": "2023-05-31",
+          "active": 6
+        },
+        {
+          "date": "2022-05-31",
+          "active": 10
+        },
+        {
+          "date": "2021-05-31",
+          "active": []
+        },
+        {
+          "date": "2020-05-31",
+          "active": []
+        },
+        {
+          "date": "2019-05-31",
+          "active": []
+        },
+        {
+          "date": "2018-05-31",
+          "active": []
+        },
+        {
+          "date": "2017-05-31",
+          "active": []
+        },
+        {
+          "date": "2016-05-31",
+          "active": []
+        }
       ],
       "repositories": [
-        { "name": "hmrc/one-stop-shop-registration-frontend", "amount": 3 },
+        {
+          "name": "hmrc/one-stop-shop-registration-frontend",
+          "amount": 3
+        },
         {
           "name": "hmrc/one-stop-shop-registration-journey-tests",
           "amount": 3
         },
-        { "name": "hmrc/sca-change-of-circumstances-frontend", "amount": 1 }
+        {
+          "name": "hmrc/sca-change-of-circumstances-frontend",
+          "amount": 1
+        }
       ],
       "languages": [
-        { "name": "HTML", "amount": 1 },
-        { "name": "JavaScript", "amount": 1 },
-        { "name": "HCL", "amount": 2 },
-        { "name": "Java", "amount": 38 },
-        { "name": "Scala", "amount": 364 }
+        {
+          "name": "HTML",
+          "amount": 1
+        },
+        {
+          "name": "JavaScript",
+          "amount": 1
+        },
+        {
+          "name": "HCL",
+          "amount": 2
+        },
+        {
+          "name": "Java",
+          "amount": 38
+        },
+        {
+          "name": "Scala",
+          "amount": 364
+        }
       ],
       "licenses": [
-        { "name": "mit", "amount": 4 },
-        { "name": "apache-2.0", "amount": 402 }
+        {
+          "name": "mit",
+          "amount": 4
+        },
+        {
+          "name": "apache-2.0",
+          "amount": 402
+        }
       ],
       "industry": "Technology"
     },
@@ -514,26 +1266,71 @@
       "totalCommunityChange": 0,
       "position": 239,
       "yoy": [
-        { "date": "2023-06-30", "active": 6 },
-        { "date": "2022-06-30", "active": 10 },
-        { "date": "2021-06-30", "active": [] },
-        { "date": "2020-06-30", "active": [] },
-        { "date": "2019-06-30", "active": [] },
-        { "date": "2018-06-30", "active": [] },
-        { "date": "2017-06-30", "active": [] },
-        { "date": "2016-06-30", "active": [] }
+        {
+          "date": "2023-06-30",
+          "active": 6
+        },
+        {
+          "date": "2022-06-30",
+          "active": 10
+        },
+        {
+          "date": "2021-06-30",
+          "active": []
+        },
+        {
+          "date": "2020-06-30",
+          "active": []
+        },
+        {
+          "date": "2019-06-30",
+          "active": []
+        },
+        {
+          "date": "2018-06-30",
+          "active": []
+        },
+        {
+          "date": "2017-06-30",
+          "active": []
+        },
+        {
+          "date": "2016-06-30",
+          "active": []
+        }
       ],
       "repositories": null,
       "languages": [
-        { "name": "Java", "amount": 38 },
-        { "name": "HCL", "amount": 2 },
-        { "name": "JavaScript", "amount": 1 },
-        { "name": "Scala", "amount": 433 },
-        { "name": "HTML", "amount": 1 }
+        {
+          "name": "Java",
+          "amount": 38
+        },
+        {
+          "name": "HCL",
+          "amount": 2
+        },
+        {
+          "name": "JavaScript",
+          "amount": 1
+        },
+        {
+          "name": "Scala",
+          "amount": 433
+        },
+        {
+          "name": "HTML",
+          "amount": 1
+        }
       ],
       "licenses": [
-        { "name": "apache-2.0", "amount": 471 },
-        { "name": "mit", "amount": 4 }
+        {
+          "name": "apache-2.0",
+          "amount": 471
+        },
+        {
+          "name": "mit",
+          "amount": 4
+        }
       ],
       "industry": "Technology"
     },
@@ -546,27 +1343,80 @@
       "totalCommunityChange": 1,
       "position": 242,
       "yoy": [
-        { "date": "2023-07-31", "active": 6 },
-        { "date": "2022-07-31", "active": 10 },
-        { "date": "2021-07-31", "active": [] },
-        { "date": "2020-07-31", "active": [] },
-        { "date": "2019-07-31", "active": [] },
-        { "date": "2018-07-31", "active": [] },
-        { "date": "2017-07-31", "active": [] },
-        { "date": "2016-07-31", "active": [] }
+        {
+          "date": "2023-07-31",
+          "active": 6
+        },
+        {
+          "date": "2022-07-31",
+          "active": 10
+        },
+        {
+          "date": "2021-07-31",
+          "active": []
+        },
+        {
+          "date": "2020-07-31",
+          "active": []
+        },
+        {
+          "date": "2019-07-31",
+          "active": []
+        },
+        {
+          "date": "2018-07-31",
+          "active": []
+        },
+        {
+          "date": "2017-07-31",
+          "active": []
+        },
+        {
+          "date": "2016-07-31",
+          "active": []
+        }
       ],
-      "repositories": [{ "name": "hmrc/one-stop-shop-returns", "amount": 1 }],
+      "repositories": [
+        {
+          "name": "hmrc/one-stop-shop-returns",
+          "amount": 1
+        }
+      ],
       "languages": [
-        { "name": "Java", "amount": 42 },
-        { "name": "HCL", "amount": 2 },
-        { "name": "JavaScript", "amount": 1 },
-        { "name": "Scala", "amount": 508 },
-        { "name": "HTML", "amount": 1 }
+        {
+          "name": "Java",
+          "amount": 42
+        },
+        {
+          "name": "HCL",
+          "amount": 2
+        },
+        {
+          "name": "JavaScript",
+          "amount": 1
+        },
+        {
+          "name": "Scala",
+          "amount": 508
+        },
+        {
+          "name": "HTML",
+          "amount": 1
+        }
       ],
       "licenses": [
-        { "name": "apache-2.0", "amount": 546 },
-        { "name": "mit", "amount": 4 },
-        { "name": "gpl-3.0", "amount": 4 }
+        {
+          "name": "apache-2.0",
+          "amount": 546
+        },
+        {
+          "name": "mit",
+          "amount": 4
+        },
+        {
+          "name": "gpl-3.0",
+          "amount": 4
+        }
       ],
       "industry": "Technology"
     },
@@ -579,27 +1429,75 @@
       "totalCommunityChange": 1,
       "position": 235,
       "yoy": [
-        { "date": "2023-08-31", "active": 7 },
-        { "date": "2022-08-31", "active": 12 },
-        { "date": "2021-08-31", "active": [] },
-        { "date": "2020-08-31", "active": [] },
-        { "date": "2019-08-31", "active": [] },
-        { "date": "2018-08-31", "active": [] },
-        { "date": "2017-08-31", "active": [] },
-        { "date": "2016-08-31", "active": [] }
+        {
+          "date": "2023-08-31",
+          "active": 7
+        },
+        {
+          "date": "2022-08-31",
+          "active": 12
+        },
+        {
+          "date": "2021-08-31",
+          "active": []
+        },
+        {
+          "date": "2020-08-31",
+          "active": []
+        },
+        {
+          "date": "2019-08-31",
+          "active": []
+        },
+        {
+          "date": "2018-08-31",
+          "active": []
+        },
+        {
+          "date": "2017-08-31",
+          "active": []
+        },
+        {
+          "date": "2016-08-31",
+          "active": []
+        }
       ],
       "repositories": null,
       "languages": [
-        { "name": "Scala", "amount": 541 },
-        { "name": "HTML", "amount": 2 },
-        { "name": "HCL", "amount": 2 },
-        { "name": "Java", "amount": 42 },
-        { "name": "JavaScript", "amount": 1 }
+        {
+          "name": "Scala",
+          "amount": 541
+        },
+        {
+          "name": "HTML",
+          "amount": 2
+        },
+        {
+          "name": "HCL",
+          "amount": 2
+        },
+        {
+          "name": "Java",
+          "amount": 42
+        },
+        {
+          "name": "JavaScript",
+          "amount": 1
+        }
       ],
       "licenses": [
-        { "name": "gpl-3.0", "amount": 4 },
-        { "name": "mit", "amount": 5 },
-        { "name": "apache-2.0", "amount": 579 }
+        {
+          "name": "gpl-3.0",
+          "amount": 4
+        },
+        {
+          "name": "mit",
+          "amount": 5
+        },
+        {
+          "name": "apache-2.0",
+          "amount": 579
+        }
       ],
       "industry": "Technology"
     },
@@ -612,27 +1510,75 @@
       "totalCommunityChange": 1,
       "position": 241,
       "yoy": [
-        { "date": "2023-09-30", "active": 7 },
-        { "date": "2022-09-30", "active": 12 },
-        { "date": "2021-09-30", "active": [] },
-        { "date": "2020-09-30", "active": [] },
-        { "date": "2019-09-30", "active": [] },
-        { "date": "2018-09-30", "active": [] },
-        { "date": "2017-09-30", "active": [] },
-        { "date": "2016-09-30", "active": [] }
+        {
+          "date": "2023-09-30",
+          "active": 7
+        },
+        {
+          "date": "2022-09-30",
+          "active": 12
+        },
+        {
+          "date": "2021-09-30",
+          "active": []
+        },
+        {
+          "date": "2020-09-30",
+          "active": []
+        },
+        {
+          "date": "2019-09-30",
+          "active": []
+        },
+        {
+          "date": "2018-09-30",
+          "active": []
+        },
+        {
+          "date": "2017-09-30",
+          "active": []
+        },
+        {
+          "date": "2016-09-30",
+          "active": []
+        }
       ],
       "repositories": null,
       "languages": [
-        { "name": "Scala", "amount": 555 },
-        { "name": "HCL", "amount": 2 },
-        { "name": "HTML", "amount": 2 },
-        { "name": "Java", "amount": 42 },
-        { "name": "JavaScript", "amount": 1 }
+        {
+          "name": "Scala",
+          "amount": 555
+        },
+        {
+          "name": "HCL",
+          "amount": 2
+        },
+        {
+          "name": "HTML",
+          "amount": 2
+        },
+        {
+          "name": "Java",
+          "amount": 42
+        },
+        {
+          "name": "JavaScript",
+          "amount": 1
+        }
       ],
       "licenses": [
-        { "name": "apache-2.0", "amount": 593 },
-        { "name": "mit", "amount": 5 },
-        { "name": "gpl-3.0", "amount": 4 }
+        {
+          "name": "apache-2.0",
+          "amount": 593
+        },
+        {
+          "name": "mit",
+          "amount": 5
+        },
+        {
+          "name": "gpl-3.0",
+          "amount": 4
+        }
       ],
       "industry": "Technology"
     },
@@ -645,27 +1591,75 @@
       "totalCommunityChange": 0,
       "position": 243,
       "yoy": [
-        { "date": "2023-10-31", "active": 7 },
-        { "date": "2022-10-31", "active": 13 },
-        { "date": "2021-10-31", "active": [] },
-        { "date": "2020-10-31", "active": [] },
-        { "date": "2019-10-31", "active": [] },
-        { "date": "2018-10-31", "active": [] },
-        { "date": "2017-10-31", "active": [] },
-        { "date": "2016-10-31", "active": [] }
+        {
+          "date": "2023-10-31",
+          "active": 7
+        },
+        {
+          "date": "2022-10-31",
+          "active": 13
+        },
+        {
+          "date": "2021-10-31",
+          "active": []
+        },
+        {
+          "date": "2020-10-31",
+          "active": []
+        },
+        {
+          "date": "2019-10-31",
+          "active": []
+        },
+        {
+          "date": "2018-10-31",
+          "active": []
+        },
+        {
+          "date": "2017-10-31",
+          "active": []
+        },
+        {
+          "date": "2016-10-31",
+          "active": []
+        }
       ],
       "repositories": null,
       "languages": [
-        { "name": "Java", "amount": 42 },
-        { "name": "JavaScript", "amount": 1 },
-        { "name": "HTML", "amount": 2 },
-        { "name": "HCL", "amount": 2 },
-        { "name": "Scala", "amount": 572 }
+        {
+          "name": "Java",
+          "amount": 42
+        },
+        {
+          "name": "JavaScript",
+          "amount": 1
+        },
+        {
+          "name": "HTML",
+          "amount": 2
+        },
+        {
+          "name": "HCL",
+          "amount": 2
+        },
+        {
+          "name": "Scala",
+          "amount": 572
+        }
       ],
       "licenses": [
-        { "name": "gpl-3.0", "amount": 4 },
-        { "name": "apache-2.0", "amount": 610 },
-        { "name": "mit", "amount": 5 }
+        {
+          "name": "gpl-3.0",
+          "amount": 4
+        },
+        {
+          "name": "apache-2.0",
+          "amount": 610
+        },
+        {
+          "name": "mit",
+          "amount": 5
+        }
       ],
       "industry": "Technology"
     },
@@ -678,27 +1672,75 @@
       "totalCommunityChange": 0,
       "position": 245,
       "yoy": [
-        { "date": "2023-11-30", "active": 7 },
-        { "date": "2022-11-30", "active": 13 },
-        { "date": "2021-11-30", "active": [] },
-        { "date": "2020-11-30", "active": [] },
-        { "date": "2019-11-30", "active": [] },
-        { "date": "2018-11-30", "active": [] },
-        { "date": "2017-11-30", "active": [] },
-        { "date": "2016-11-30", "active": [] }
+        {
+          "date": "2023-11-30",
+          "active": 7
+        },
+        {
+          "date": "2022-11-30",
+          "active": 13
+        },
+        {
+          "date": "2021-11-30",
+          "active": []
+        },
+        {
+          "date": "2020-11-30",
+          "active": []
+        },
+        {
+          "date": "2019-11-30",
+          "active": []
+        },
+        {
+          "date": "2018-11-30",
+          "active": []
+        },
+        {
+          "date": "2017-11-30",
+          "active": []
+        },
+        {
+          "date": "2016-11-30",
+          "active": []
+        }
       ],
       "repositories": null,
       "languages": [
-        { "name": "Scala", "amount": 587 },
-        { "name": "HCL", "amount": 2 },
-        { "name": "Java", "amount": 42 },
-        { "name": "JavaScript", "amount": 1 },
-        { "name": "HTML", "amount": 2 }
+        {
+          "name": "Scala",
+          "amount": 587
+        },
+        {
+          "name": "HCL",
+          "amount": 2
+        },
+        {
+          "name": "Java",
+          "amount": 42
+        },
+        {
+          "name": "JavaScript",
+          "amount": 1
+        },
+        {
+          "name": "HTML",
+          "amount": 2
+        }
       ],
       "licenses": [
-        { "name": "apache-2.0", "amount": 625 },
-        { "name": "mit", "amount": 5 },
-        { "name": "gpl-3.0", "amount": 4 }
+        {
+          "name": "apache-2.0",
+          "amount": 625
+        },
+        {
+          "name": "mit",
+          "amount": 5
+        },
+        {
+          "name": "gpl-3.0",
+          "amount": 4
+        }
       ],
       "industry": "Technology"
     },
@@ -711,30 +1753,164 @@
       "totalCommunityChange": 1,
       "position": 248,
       "yoy": [
-        { "date": "2023-12-31", "active": 7 },
-        { "date": "2022-12-31", "active": 13 },
-        { "date": "2021-12-31", "active": [] },
-        { "date": "2020-12-31", "active": [] },
-        { "date": "2019-12-31", "active": [] },
-        { "date": "2018-12-31", "active": [] },
-        { "date": "2017-12-31", "active": [] },
-        { "date": "2016-12-31", "active": [] }
+        {
+          "date": "2023-12-31",
+          "active": 7
+        },
+        {
+          "date": "2022-12-31",
+          "active": 13
+        },
+        {
+          "date": "2021-12-31",
+          "active": []
+        },
+        {
+          "date": "2020-12-31",
+          "active": []
+        },
+        {
+          "date": "2019-12-31",
+          "active": []
+        },
+        {
+          "date": "2018-12-31",
+          "active": []
+        },
+        {
+          "date": "2017-12-31",
+          "active": []
+        },
+        {
+          "date": "2016-12-31",
+          "active": []
+        }
       ],
       "repositories": null,
       "languages": [
-        { "name": "HTML", "amount": 2 },
-        { "name": "Scala", "amount": 590 },
-        { "name": "HCL", "amount": 2 },
-        { "name": "Java", "amount": 44 },
-        { "name": "JavaScript", "amount": 1 }
+        {
+          "name": "HTML",
+          "amount": 2
+        },
+        {
+          "name": "Scala",
+          "amount": 590
+        },
+        {
+          "name": "HCL",
+          "amount": 2
+        },
+        {
+          "name": "Java",
+          "amount": 44
+        },
+        {
+          "name": "JavaScript",
+          "amount": 1
+        }
       ],
       "licenses": [
-        { "name": "apache-2.0", "amount": 630 },
-        { "name": "mit", "amount": 5 },
-        { "name": "gpl-3.0", "amount": 4 }
+        {
+          "name": "apache-2.0",
+          "amount": 630
+        },
+        {
+          "name": "mit",
+          "amount": 5
+        },
+        {
+          "name": "gpl-3.0",
+          "amount": 4
+        }
+      ],
+      "industry": "Technology"
+    }
+  },
+  "2024": {
+    "01": {
+      "positionChange": 0,
+      "company": "Opencast Software",
+      "activeContributors": 5,
+      "activeContributorsChange": 0,
+      "totalCommunity": 8,
+      "totalCommunityChange": 0,
+      "position": 214,
+      "yoy": [
+        {
+          "date": "2024-01-31",
+          "active": 5
+        },
+        {
+          "date": "2023-01-31",
+          "active": 4
+        },
+        {
+          "date": "2022-01-31",
+          "active": []
+        },
+        {
+          "date": "2021-01-31",
+          "active": []
+        },
+        {
+          "date": "2020-01-31",
+          "active": []
+        },
+        {
+          "date": "2019-01-31",
+          "active": []
+        },
+        {
+          "date": "2018-01-31",
+          "active": []
+        },
+        {
+          "date": "2017-01-31",
+          "active": []
+        },
+        {
+          "date": "2016-01-31",
+          "active": []
+        }
+      ],
+      "repositories": null,
+      "languages": [
+        {
+          "name": "HTML",
+          "amount": 2
+        },
+        {
+          "name": "Python",
+          "amount": 4
+        },
+        {
+          "name": "Scala",
+          "amount": 101
+        },
+        {
+          "name": "Java",
+          "amount": 2
+        },
+        {
+          "name": "Gherkin",
+          "amount": 18
+        },
+        {
+          "name": "Batchfile",
+          "amount": 2
+        }
+      ],
+      "licenses": [
+        {
+          "name": "mit",
+          "amount": 7
+        },
+        {
+          "name": "apache-2.0",
+          "amount": 127
+        }
       ],
       "industry": "Technology"
     }
   }
 }
-{"positionChange":0,"company":"Opencast Software","activeContributors":5,"activeContributorsChange":0,"totalCommunity":8,"totalCommunityChange":0,"position":214,"yoy":[{"date":"2024-01-31","active":5},{"date":"2023-01-31","active":4},{"date":"2022-01-31","active":[]},{"date":"2021-01-31","active":[]},{"date":"2020-01-31","active":[]},{"date":"2019-01-31","active":[]},{"date":"2018-01-31","active":[]},{"date":"2017-01-31","active":[]},{"date":"2016-01-31","active":[]}],"repositories":null,"languages":[{"name":"HTML","amount":2},{"name":"Python","amount":4},{"name":"Scala","amount":101},{"name":"Java","amount":2},{"name":"Gherkin","amount":18},{"name":"Batchfile","amount":2}],"licenses":[{"name":"mit","amount":7},{"name":"apache-2.0","amount":127}],"industry":"Technology"}
