@@ -737,3 +737,4 @@
     }
   }
 }
+{"positionChange":0,"company":"Opencast Software","activeContributors":5,"activeContributorsChange":0,"totalCommunity":8,"totalCommunityChange":0,"position":214,"yoy":[{"date":"2024-01-31","active":5},{"date":"2023-01-31","active":4},{"date":"2022-01-31","active":[]},{"date":"2021-01-31","active":[]},{"date":"2020-01-31","active":[]},{"date":"2019-01-31","active":[]},{"date":"2018-01-31","active":[]},{"date":"2017-01-31","active":[]},{"date":"2016-01-31","active":[]}],"repositories":null,"languages":[{"name":"HTML","amount":2},{"name":"Python","amount":4},{"name":"Scala","amount":101},{"name":"Java","amount":2},{"name":"Gherkin","amount":18},{"name":"Batchfile","amount":2}],"licenses":[{"name":"mit","amount":7},{"name":"apache-2.0","amount":127}],"industry":"Technology"}
