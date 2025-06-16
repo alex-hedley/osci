@@ -81,7 +81,7 @@ jobs:
         run: |
           git checkout -b "stats/$MONTH"
           git add ${{ env.FILE }}
-          git commit -m "✚ Add Data for $MONTH"
+          git commit -m "✚ Add Data for $MONTH ${YEAR}"
           git push --set-upstream origin "stats/$MONTH"
 
       - name: Create Pull Request
