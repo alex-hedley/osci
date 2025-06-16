@@ -7,6 +7,7 @@
 
 [![Get Stats](https://github.com/alex-hedley/osci/actions/workflows/stats.yml/badge.svg)](https://github.com/alex-hedley/osci/actions/workflows/stats.yml)
 [![Deploy static content to Pages](https://github.com/alex-hedley/osci/actions/workflows/pages.yml/badge.svg)](https://github.com/alex-hedley/osci/actions/workflows/pages.yml)
+[![Dependabot Updates](https://github.com/alex-hedley/osci/actions/workflows/dependabot/dependabot-updates/badge.svg)](https://github.com/alex-hedley/osci/actions/workflows/dependabot/dependabot-updates)
 
 > Open Source Contributor Index  
 > Welcome to OSCI, where commercial organizations are ranked by the volume of their employees’ year-to-date open source contributions on GitHub
@@ -17,6 +18,12 @@ Stats for Opencast Software.
 
 - [deployed](https://alex-hedley.github.io/osci/)
 - [localhost](http://localhost:8000)
+
+## Data
+
+2022, 2023, 2024
+
+- [stats.json](src/data/stats.json)
 
 ## Links
 
