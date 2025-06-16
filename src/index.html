@@ -118,7 +118,7 @@
           <div class="row">
             <div
               ng-repeat="item in data | filter:searchText | orderBy:'number'"
-              class="col-md-4"
+              class="col-md-3"
               style="margin-bottom: 50px"
             >
               <div class="card" style="width: 18rem">
@@ -133,12 +133,14 @@
 
                 <div class="card-body">
                   <div ng-repeat="contributor in item.contributors">
-                    <img
-                      ng-src="https://github.com/{{contributor.Contributor}}.png?size=40"
-                      alt="{{contributor.Contributor}}"
-                      width="40"
-                    />
-                    <span class="badge badge-primary" title="Commits">{{contributor.Commits}}</span>
+                    <p class="card-text">
+                      <img
+                        ng-src="https://github.com/{{contributor.Contributor}}.png?size=40"
+                        alt="{{contributor.Contributor}}"
+                        width="40"
+                      />
+                      {{contributor.Contributor}} 
+                      <span class="badge badge-primary" title="Commits">{{contributor.Commits}}</span></p>
                   </div>
                 </div>
 
