@@ -36,4 +36,4 @@ Stats for Opencast Software.
 
 - `python -m http.server`
 - `python -m SimpleHTTPServer`
-- `python3 -m http.server`
+- `python3 -m http.server -b 127.0.0.1`
