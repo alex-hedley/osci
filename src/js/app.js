@@ -1,8 +1,8 @@
 var myApp = angular.module("myApp", []);
 myApp.controller("myController", function ($scope, $http, $q, $filter) {
   $scope.data = {};
-  $scope.years = ["2024", "2023", "2022"]; // Manually add to this for now.
-  $scope.selectedYear = "2024";
+  $scope.years = ["2025", "2024", "2023", "2022"]; // Manually add to this for now.
+  $scope.selectedYear = "2025";
 
   $scope.init = function () {
     getData();
