@@ -3124,3 +3124,4 @@
     }
   }
 }
+{"positionChange":0.0,"company":"Opencast Software","activeContributors":3.0,"activeContributorsChange":0.0,"totalCommunity":9,"totalCommunityChange":4.0,"position":251,"yoy":[{"date":"2025-04-30","active":3.0},{"date":"2024-04-30","active":8},{"date":"2023-04-30","active":6},{"date":"2022-04-30","active":7},{"date":"2021-04-30","active":[]},{"date":"2020-04-30","active":[]},{"date":"2019-04-30","active":[]},{"date":"2018-04-30","active":[]},{"date":"2017-04-30","active":[]},{"date":"2016-04-30","active":[]}],"repositories":null,"languages":[{"name":"TypeScript","amount":14},{"name":"JavaScript","amount":4},{"name":"Rust","amount":5},{"name":"HTML","amount":1},{"name":"Gherkin","amount":48},{"name":"Scala","amount":214},{"name":"Kotlin","amount":1}],"licenses":[{"name":"apache-2.0","amount":262},{"name":"mit","amount":27}],"industry":"Technology"}
