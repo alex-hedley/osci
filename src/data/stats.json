@@ -2520,7 +2520,91 @@
         }
       ],
       "industry": "Technology"
+    },
+    "09": {
+      "positionChange": 2,
+      "company": "Opencast Software",
+      "activeContributors": 10.0,
+      "activeContributorsChange": 0.0,
+      "totalCommunity": 16,
+      "totalCommunityChange": 0,
+      "position": 259,
+      "yoy": [
+        {
+          "date": "2024-09-30",
+          "active": 10.0
+        },
+        {
+          "date": "2023-09-30",
+          "active": 7
+        },
+        {
+          "date": "2022-09-30",
+          "active": 12
+        },
+        {
+          "date": "2021-09-30",
+          "active": []
+        },
+        {
+          "date": "2020-09-30",
+          "active": []
+        },
+        {
+          "date": "2019-09-30",
+          "active": []
+        },
+        {
+          "date": "2018-09-30",
+          "active": []
+        },
+        {
+          "date": "2017-09-30",
+          "active": []
+        },
+        {
+          "date": "2016-09-30",
+          "active": []
+        }
+      ],
+      "repositories": null,
+      "languages": [
+        {
+          "name": "HTML",
+          "amount": 22
+        },
+        {
+          "name": "Gherkin",
+          "amount": 97
+        },
+        {
+          "name": "Python",
+          "amount": 4
+        },
+        {
+          "name": "Scala",
+          "amount": 987
+        },
+        {
+          "name": "Java",
+          "amount": 45
+        },
+        {
+          "name": "Batchfile",
+          "amount": 14
+        }
+      ],
+      "licenses": [
+        {
+          "name": "apache-2.0",
+          "amount": 1172
+        },
+        {
+          "name": "mit",
+          "amount": 7
+        }
+      ],
+      "industry": "Technology"
     }
   }
 }
-{"positionChange":2,"company":"Opencast Software","activeContributors":10.0,"activeContributorsChange":0.0,"totalCommunity":16,"totalCommunityChange":0,"position":259,"yoy":[{"date":"2024-09-30","active":10.0},{"date":"2023-09-30","active":7},{"date":"2022-09-30","active":12},{"date":"2021-09-30","active":[]},{"date":"2020-09-30","active":[]},{"date":"2019-09-30","active":[]},{"date":"2018-09-30","active":[]},{"date":"2017-09-30","active":[]},{"date":"2016-09-30","active":[]}],"repositories":null,"languages":[{"name":"HTML","amount":22},{"name":"Gherkin","amount":97},{"name":"Python","amount":4},{"name":"Scala","amount":987},{"name":"Java","amount":45},{"name":"Batchfile","amount":14}],"licenses":[{"name":"apache-2.0","amount":1172},{"name":"mit","amount":7}],"industry":"Technology"}
