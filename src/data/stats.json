@@ -3036,7 +3036,91 @@
         }
       ],
       "industry": "Technology"
+    },
+    "03": {
+      "positionChange": 7.0,
+      "company": "Opencast Software",
+      "activeContributors": 3.0,
+      "activeContributorsChange": 0.0,
+      "totalCommunity": 5,
+      "totalCommunityChange": 1.0,
+      "position": 251,
+      "yoy": [
+        {
+          "date": "2025-03-31",
+          "active": 3.0
+        },
+        {
+          "date": "2024-03-31",
+          "active": 7
+        },
+        {
+          "date": "2023-03-31",
+          "active": 5
+        },
+        {
+          "date": "2022-03-31",
+          "active": []
+        },
+        {
+          "date": "2021-03-31",
+          "active": []
+        },
+        {
+          "date": "2020-03-31",
+          "active": []
+        },
+        {
+          "date": "2019-03-31",
+          "active": []
+        },
+        {
+          "date": "2018-03-31",
+          "active": []
+        },
+        {
+          "date": "2017-03-31",
+          "active": []
+        },
+        {
+          "date": "2016-03-31",
+          "active": []
+        }
+      ],
+      "repositories": null,
+      "languages": [
+        {
+          "name": "TypeScript",
+          "amount": 13
+        },
+        {
+          "name": "JavaScript",
+          "amount": 1
+        },
+        {
+          "name": "HTML",
+          "amount": 1
+        },
+        {
+          "name": "Gherkin",
+          "amount": 47
+        },
+        {
+          "name": "Scala",
+          "amount": 138
+        }
+      ],
+      "licenses": [
+        {
+          "name": "apache-2.0",
+          "amount": 185
+        },
+        {
+          "name": "mit",
+          "amount": 15
+        }
+      ],
+      "industry": "Technology"
     }
   }
 }
-{"positionChange":7.0,"company":"Opencast Software","activeContributors":3.0,"activeContributorsChange":0.0,"totalCommunity":5,"totalCommunityChange":1.0,"position":251,"yoy":[{"date":"2025-03-31","active":3.0},{"date":"2024-03-31","active":7},{"date":"2023-03-31","active":5},{"date":"2022-03-31","active":[]},{"date":"2021-03-31","active":[]},{"date":"2020-03-31","active":[]},{"date":"2019-03-31","active":[]},{"date":"2018-03-31","active":[]},{"date":"2017-03-31","active":[]},{"date":"2016-03-31","active":[]}],"repositories":null,"languages":[{"name":"TypeScript","amount":13},{"name":"JavaScript","amount":1},{"name":"HTML","amount":1},{"name":"Gherkin","amount":47},{"name":"Scala","amount":138}],"licenses":[{"name":"apache-2.0","amount":185},{"name":"mit","amount":15}],"industry":"Technology"}
