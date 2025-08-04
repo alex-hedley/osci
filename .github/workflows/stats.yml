@@ -62,9 +62,7 @@ jobs:
             echo $year
           fi
           echo "MONTH=$(echo $month)" >> $GITHUB_ENV
-          echo "::set-output name=month::${{ env.MONTH }}"
           echo "YEAR=$(echo $year)" >> $GITHUB_ENV
-          echo "::set-output name=year::${{ env.YEAR }}"
 
       - name: Get Stats for Month
         run: curl "https://ststaticprodosciwebz2vmu.blob.core.windows.net/data/osci-ranking/monthly/${{ env.YEAR }}/${{ env.MONTH }}.json" | jq '.data' | jq -c '.[] | select( .company == "Opencast Software")' >> ${{ env.FILE }}
