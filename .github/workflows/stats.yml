@@ -28,10 +28,12 @@ env:
 jobs:
   get-stats:
     runs-on: ubuntu-latest
-    # permissions:
-    #   id-token: write
-    #   contents: write
-    #   pull-requests: write
+    
+    permissions:
+      id-token: write
+      contents: write
+      pull-requests: write
+    
     steps:
       - name: Checkout Branch
         uses: actions/checkout@v5
