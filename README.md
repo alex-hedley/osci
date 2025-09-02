@@ -21,7 +21,7 @@ Stats for Opencast Software.
 
 ## Data
 
-2022, 2023, 2024
+2022, 2023, 2024, 2025
 
 - [stats.json](src/data/stats.json)
 
